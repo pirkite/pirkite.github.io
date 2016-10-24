@@ -75,6 +75,11 @@ ul li a:before {
 
 ul, li {list-style-type: none;}
 ul {padding-left: 0 !important; line-height: 2;}
+ul.sistemos {line-height: 1.5;font-size: 13px;}
+
+@media (max-width: 14px) {
+    ul.sistemos {font-size: 14px;}
+}
 
 //li {padding-left: 2em; text-indent: -2em;}
 
@@ -85,6 +90,7 @@ ul {padding-left: 0 !important; line-height: 2;}
 
 .cat.flex.category {
     margin-bottom: 2rem;
+    height: 20rem;
 }
 
 a.subs > ul li:before {
