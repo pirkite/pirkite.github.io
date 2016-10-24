@@ -77,8 +77,14 @@ ul, li {list-style-type: none;}
 ul {padding-left: 0 !important; line-height: 2;}
 ul.sistemos {line-height: 1.5;font-size: 13px;}
 
-@media (max-width: 14px) {
+@media (max-width: 768px) {
     ul.sistemos {font-size: 14px;}
+    .cat.flex.category {height: auto;}
+    ul.subcategory {font-size: 1.6rem;}
+}
+
+@media (min-width: 768px) {
+    .cat.flex.category {height: 20rem;}
 }
 
 //li {padding-left: 2em; text-indent: -2em;}
@@ -89,8 +95,10 @@ ul.sistemos {line-height: 1.5;font-size: 13px;}
 }
 
 .cat.flex.category {
-    margin-bottom: 2rem;
-    height: 20rem;
+    //height: 20rem;
+    min-width: 30rem;
+    max-width: 60rem;
+    margin: 1rem auto;
 }
 
 a.subs > ul li:before {
