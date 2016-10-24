@@ -74,8 +74,10 @@ ul li a:before {
 }
 
 ul, li {list-style-type: none;}
+ul {padding-left: 0 !important; line-height: 2;}
 
 //li {padding-left: 2em; text-indent: -2em;}
+
 
 .subcategory {
     //margin-left: -1rem;
